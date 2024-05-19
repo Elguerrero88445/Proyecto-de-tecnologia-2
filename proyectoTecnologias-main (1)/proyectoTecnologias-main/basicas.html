@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ciencias básicas</title>
+    <script>
+        function navigateTo(option) {
+            if (option === 1) {
+                window.location.href = "quimica.html";
+            } else if (option === 2) {
+                window.location.href = "numeros.html";
+            } else {
+                alert("Opción no válida.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Ciencias básicas</h1>
+    <h2>¿Qué prefieres?</h2>
+    <button onclick="navigateTo(1)">Me gusta más la química</button>
+    <button onclick="navigateTo(2)">Me gustan más los números</button>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</body>
+</html>

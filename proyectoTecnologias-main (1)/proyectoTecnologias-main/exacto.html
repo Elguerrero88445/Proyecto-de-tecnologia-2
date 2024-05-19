@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lo exacto y comprobable</title>
+    <script>
+        function navigateTo(option) {
+            if (option === 1) {
+                window.location.href = "exactas.html";
+            } else if (option === 2) {
+                window.location.href = "salud.html";
+            } else {
+                alert("Opción no válida.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Lo exacto y comprobable</h1>
+    <h2>¿Qué te gusta más?</h2>
+    <button onclick="navigateTo(1)">Las ciencias exactas</button>
+    <button onclick="navigateTo(2)">Ciencias de la salud</button>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</body>
+</html>

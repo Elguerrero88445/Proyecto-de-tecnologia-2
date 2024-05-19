@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ciencias sociales</title>
+    <script>
+        function navigateTo(option) {
+            if (option === 1) {
+                window.location.href = "derecho.html";
+            } else if (option === 2) {
+                window.location.href = "comunicacion.html";
+            } else {
+                alert("Opción no válida.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Ciencias sociales</h1>
+    <p>Entonces debes ir al CUCSH. ¿Qué te gusta más?</p>
+    <button onclick="navigateTo(1)">El derecho</button>
+    <button onclick="navigateTo(2)">La comunicación</button>
+</body>
+</html>

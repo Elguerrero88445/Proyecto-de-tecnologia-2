@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lo administrativo-mercantil</title>
+    <script>
+        function navigateTo(option) {
+            if (option === 1) {
+                window.location.href = "administracion.html";
+            } else if (option === 2) {
+                window.location.href = "mercadeo.html";
+            } else {
+                alert("Opción no válida.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Lo administrativo-mercantil</h1>
+    <p>¿Qué prefieres?</p>
+    <button onclick="navigateTo(1)">Administración y gestión</button>
+    <button onclick="navigateTo(2)">Mercadeo</button>
+</body>
+</html>

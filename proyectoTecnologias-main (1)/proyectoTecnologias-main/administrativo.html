@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lo administrativo y lo económico</title>
+    <script>
+        function navigateTo(option) {
+            if (option === 1) {
+                window.location.href = "economia.html";
+            } else if (option === 2) {
+                window.location.href = "administrativo_mercantil.html";
+            } else {
+                alert("Opción no válida.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Lo administrativo y lo económico</h1>
+    <h2>Te recomendamos CUCEA. ¿Qué te gusta más?</h2>
+    <button onclick="navigateTo(1)">Me gusta la economía y finanzas</button>
+    <button onclick="navigateTo(2)">Me gusta lo administrativo-mercantil</button>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</body>
+</html>

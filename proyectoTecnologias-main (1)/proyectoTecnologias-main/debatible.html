@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lo debatible y filosófico</title>
+    <script>
+        function navigateTo(option) {
+            if (option === 1) {
+                window.location.href = "sociales.html";
+            } else if (option === 2) {
+                window.location.href = "arte.html";
+            } else {
+                alert("Opción no válida.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Lo debatible y filosófico</h1>
+    <p>¿Qué te gusta más?</p>
+    <button onclick="navigateTo(1)">Las ciencias sociales</button>
+    <button onclick="navigateTo(2)">El arte</button>
+</body>
+</html>

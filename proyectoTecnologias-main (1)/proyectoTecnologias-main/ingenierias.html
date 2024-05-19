@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ingenierías</title>
+    <script>
+        function navigateTo(option) {
+            if (option === 1) {
+                window.location.href = "computadoras.html";
+            } else if (option === 2) {
+                window.location.href = "no_computadoras.html";
+            } else {
+                alert("Opción no válida.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Ingenierías</h1>
+    <p>¿Qué prefieres?</p>
+    <button onclick="navigateTo(1)">Me gustan las computadoras</button>
+    <button onclick="navigateTo(2)">No me gustan las computadoras</button>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</body>
+</html>
